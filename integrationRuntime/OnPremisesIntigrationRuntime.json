@@ -1,0 +1,6 @@
+{
+	"name": "OnPremisesIntigrationRuntime",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
