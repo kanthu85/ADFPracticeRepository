@@ -5,6 +5,12 @@
 		"factoryName": {
 			"value": "KanthuADFPractice"
 		},
+		"AzureBlobStorageLinkedService_connectionString": {
+			"value": ""
+		},
+		"AzureTableStorageLinkedService_connectionString": {
+			"value": ""
+		},
 		"containerUri": {
 			"value": ""
 		},
