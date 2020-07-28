@@ -41,16 +41,6 @@
 			"dependsOn": []
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/OnPremisesIntigrationRuntime')]",
-			"type": "Microsoft.DataFactory/factories/integrationRuntimes",
-			"apiVersion": "2018-06-01",
-			"properties": {
-				"type": "SelfHosted",
-				"typeProperties": {}
-			},
-			"dependsOn": []
-		},
-		{
 			"name": "[concat(parameters('factoryName'), '/AzureBlobStorageLinkedService')]",
 			"type": "Microsoft.DataFactory/factories/linkedServices",
 			"apiVersion": "2018-06-01",
@@ -77,6 +67,16 @@
 			"dependsOn": []
 		},
 		{
+			"name": "[concat(parameters('factoryName'), '/OnPremisesIntigrationRuntime')]",
+			"type": "Microsoft.DataFactory/factories/integrationRuntimes",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"type": "SelfHosted",
+				"typeProperties": {}
+			},
+			"dependsOn": []
+		},
+		{
 			"name": "[concat(parameters('factoryName'), '/InputDataset')]",
 			"type": "Microsoft.DataFactory/factories/datasets",
 			"apiVersion": "2018-06-01",
@@ -90,10 +90,10 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobStorageLocation",
-						"fileName": "AWMergedFile.csv",
-						"container": "input"
+						"fileName": "Demo_July-20.csv",
+						"container": "reportblob"
 					},
-					"columnDelimiter": ",",
+					"columnDelimiter": "|",
 					"escapeChar": "\\",
 					"quoteChar": "\""
 				},
@@ -132,7 +132,7 @@
 				"type": "AzureTable",
 				"schema": [],
 				"typeProperties": {
-					"tableName": "AWFinalOutput"
+					"tableName": "ApacReport"
 				}
 			},
 			"dependsOn": [
