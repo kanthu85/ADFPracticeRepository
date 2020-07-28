@@ -5,8 +5,8 @@
 		"annotations": [],
 		"type": "AzureTableStorage",
 		"typeProperties": {
-			"connectionString": "DefaultEndpointsProtocol=https;AccountName=tablestoragekanthu;EndpointSuffix=core.windows.net;",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIktBTlRIVUFERlBSQUNUSUNFXzNlMWNmNWJkLTA0YTItNDc1OC1iMDM2LWJmZDgwZGU4M2E1ZiINCn0="
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=kanthublobstorage;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIktBTlRIVUFERlBSQUNUSUNFX2FkNTM0MmJlLWE0MTMtNGY3MC05ZDdhLTRmZmRkNmJjN2YyYiINCn0="
 		}
 	}
 }
